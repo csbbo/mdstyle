@@ -55,3 +55,9 @@
 &copy;
 &rsaquo;
 &amp;
+
+```seq
+Note left of Nginx:网络上http请\n求到达Nginx
+Nginx->uWSGI:uwsgi协议
+uWSGI->Flask:WSGI协议
+```
